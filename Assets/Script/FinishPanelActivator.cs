@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class FinishObject : MonoBehaviour
+public class FinishPanelActivator : MonoBehaviour
 {
-    [SerializeField] private string nameScene;
+
+    [SerializeField] private GameObject PanelFinish;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Controler controler = collision.GetComponent<Controler>();
         if (controler != null)
         {
-            SceneManager.LoadScene(nameScene);
+            PanelFinish.SetActive(true);
         }
     }
 }
