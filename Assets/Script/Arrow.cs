@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Arrow : MonoBehaviour
@@ -11,6 +9,7 @@ public class Arrow : MonoBehaviour
     [SerializeField] private float up_power = 55f;
     [SerializeField] private float left_power = 185f;
     [SerializeField] private float right = 185f;
+
 
 
     private void OnTriggerStay2D(Collider2D collision)
