@@ -249,6 +249,8 @@ MonoBehaviour:
   - {fileID: 7665604425529893486}
   - {fileID: 7665604424285667313}
   - {fileID: 7665604424158628102}
+  effect: {fileID: 100000, guid: 77ec3c4e07a36814fb3169ecef41b50a, type: 3}
+  audio: {fileID: 1609494349742796781, guid: 31fdb484597fd074fbe10d79d70054c9, type: 3}
 --- !u!1 &4590259004931889749
 GameObject:
   m_ObjectHideFlags: 0

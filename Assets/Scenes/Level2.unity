@@ -420,6 +420,8 @@ MonoBehaviour:
   up_power: 55
   left_power: 185
   right: 185
+  eefect: {fileID: 1040608886635896, guid: a97415c6b57076f41a6621a7b51d63a3, type: 3}
+  audio: {fileID: 5757551454821865914, guid: 2ff66d16332f30a42a0263389cd2f91c, type: 3}
 --- !u!1 &576718662 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4329069416324616293, guid: 68cab3ad1df44544781eaf160170c500, type: 3}
